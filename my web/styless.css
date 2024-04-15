@@ -60,21 +60,22 @@
 	width: 40%;
 	position:absolute;
 	color:blue;
-	top: 20%;
+	top: 10%;
 	font-style:Align;
 	padding: 50px;
 }
 .content h1 {
-	font-size: 50px;
+	font-size: 60px;
 	color: #F9EBEA  ;
 	font-style:bold;
+	margin-bottom:10%;
 	
 }
 .content h4 {
-	font-size: 17px;
+	font-size: 20px;
 	color: #EAFAF1   ;
 	font-style:Align;
-	boder-color:#F9EBEA;
+	
 	
 }
 .hero video{

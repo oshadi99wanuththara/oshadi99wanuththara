@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #AEB6BF  ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the logo */
+.logo a {
+    float: left;
+    padding: 14px 20px;
+    color: #1A5276;
+    text-decoration: none;
+	text-transform: uppercase;
+    font-size: 20px;
+	font-weight: bold;
+}
+
+
+/* Align navigation links to the right */  
+.navbar-links {
+    float: right;
+}
+
+/* Navigation links */
+.navbar-links a {
+    display: inline-block;
+	list-style:none;
+    color: black;
+    padding: 15px 15px;
+	font-size: 17px;
+    text-decoration: none;
+	font-weight:bold;
+}
+
+/* Change color on hover */
+.navbar-links a:hover {
+    
+    color: white;
+}
+.image img{
+	width :100%;
+	height:80%;
+	object-fit:cover;
+
+}
+.image-content{
+	width: 50%;
+	position:absolute;
+	top:5%;
+	color:blue;
+	font-style:Align;
+	padding: 50px;
+}
+.image-content h1 {
+	
+	font-size: 60px;
+	width: 100%;
+	color:#3498DB ;
+	font-style:bold;
+	margin-bottom:5%;
+	margin-top:3%
+	
+}
+.explain p {
+	color:#2E4053  ;
+	font-style:Align;
+	font-size:25px;
+	color:#424949;
+	padding-top:4%;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:4%;
+	background-color:#F6DDCC  ;
+	
+}
+
+.column{
+	width:33.33%;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:2%;
+	float:left;
+	background-color:#FDF2E9 ;
+}
+
+.row::after{
+	content:"";
+	display:table;
+	clear:both;
+	
+	
+	
+}
+.body{
+	height:50%;
+	display:grid;
+
+}
+.table{
+	width:100%;
+	margin-left:35px;
+	
+}
+.table,th{
+	padding:30px;
+	border:30px ;
+	text-align:left;
+	font-size:40px;
+	color:#943126;
+	background-color:#F4ECF7  ;
+
+}
+.table,td{
+	padding:30px;
+	border:30px ;
+	text-align:left;
+	font-size:20px;
+	background-color:#E5E7E9 ;
+
+}
+.content{
+	padding-top:10%;
+	padding-bottom:5%;
+	font-size:25px;
+	background-color:#FDF2E9 ;
+	color:#6C3483  ;
+	text-align:center;
+}
+.table,td:hover{
+	opacity:1;
+	color:#154360 ;
+}
